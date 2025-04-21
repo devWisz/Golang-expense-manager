@@ -98,7 +98,7 @@ func showBalance() {
 			expense += t.Amount
 		}
 	}
-	fmt.Printf("\n Income: %.2f\n Expense: %.2f\n💼 Balance: %.2f\n", income, expense, income-expense)
+	fmt.Printf("\n Income: %.2f\n Expense: %.2f\n Balance: %.2f\n", income, expense, income-expense)
 }
 
 func listTransactions() {
@@ -123,7 +123,7 @@ func showMonthlySummary() {
 			}
 		}
 	}
-	fmt.Printf("This month:  Income: ₹%.2f,  Expense: ₹%.2f, 💼 Balance: ₹%.2f\n", income, expense, income-expense)
+	fmt.Printf("This month:  Income: ₹%.2f,  Expense: ₹%.2f, Balance: ₹%.2f\n", income, expense, income-expense)
 }
 
 func saveData() {
